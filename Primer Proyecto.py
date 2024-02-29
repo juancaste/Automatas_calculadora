@@ -53,7 +53,13 @@ def menu():
                                 input('Enter para continuar...')
             
                         case '2':
-                            print("Has seleccionado Union")
+                            print('HAS ESCOGIDO UNION DE ALFABETOS! ')
+                            c1=set(input('Ingrese alfabeto 1: '))
+                            c2=set(input('Ingrese alfabeto 2: '))
+                            union=c1.union(c2)
+                            union.remove(' ')
+                            print('A U B :',union)
+                            input('Enter para continuar...')        
 
                         case '3':
                             print("Has seleccionado la opción INTERSECCIÓN")

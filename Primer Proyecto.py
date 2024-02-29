@@ -28,7 +28,7 @@ def menu():
                     match opcion:
                         case '1':
                             
-                            print('HAS ESCOGIDO PERTENENCIA DE ALFABETOS ! \n')
+                            print('HAS ESCOGIDO PERTENENCIA DE ALFABETOS! \n')
                             
                             c1 = set(input("Ingrese el conjunto de alfabetos A (Separados por coma):  "))
                             c2 = set(input("Ingrese el conjunto de alfabetos B (Separados por coma):  "))
@@ -54,13 +54,6 @@ def menu():
             
                         case '2':
                             print("Has seleccionado Union")
-                            c1=set(input('Ingrese alfabeto 1: '))
-                            c2=set(input('Ingrese alfabeto 2: '))
-                            union=c1.union(c2)
-                            union.remove()
-                            print('A U B :',union)
-                            input('Enter para continuar...')
-                                                    
 
                         case '3':
                             print("Has seleccionado la opción INTERSECCIÓN")
